@@ -1,0 +1,47 @@
+*.log*
+verdaccio-*.tgz
+.DS_Store
+build/
+.eslintcache
+./dist
+
+### Test
+
+.verdaccio-db.json
+.sinopia-db.json
+
+###
+test-storage*
+.verdaccio_test_env
+node_modules
+package-lock.json
+yarn-error.log
+yarn.lock
+
+
+# docker examples
+docker-examples/v5/reverse_proxy/nginx/relative_path/storage/*
+docker-examples/v5/**/storage/*
+
+# jest
+reports/
+coverage/
+
+## IDE
+.idea/
+
+# Compiled script
+packages/partials
+tsconfig.tsbuildinfo
+
+## bundle files
+packages/standalone/dist/
+## ui
+packages/plugins/ui-theme/static
+
+# website
+website/public
+website/.cache
+
+# CI Pnpm cache
+.pnpm-store/
